@@ -39,3 +39,14 @@
   top: 5px;
   border-radius: 20px;
 }
+form {
+  display: grid;
+
+}
+label {
+  padding: 5px;
+}
+.submitButton {
+  width: 40px;
+  float: right;
+}
