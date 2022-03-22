@@ -82,9 +82,7 @@ const submissonForm = {
                 avatar: '../public/images/avatars/molly.png',
                 submissionImage: '../public/images/submissions/image-aqua.png',
             }
-            let mainSubmissions = Seed.submissions
-            mainSubmissions.push(newSubmission)
-            console.log(mainSubmissions)
+            this.$emit('newSubmission', newSubmission)
         }
     }
 }
